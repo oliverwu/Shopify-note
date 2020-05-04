@@ -23,4 +23,10 @@
 {% assign child_list_handle = link.title | handleize %}
 ```
 
-## 
+## for
+limit is optional
+```
+{% for product in collection.products limit: section.settings.product_limit%}
+
+{% endfor %}
+```
